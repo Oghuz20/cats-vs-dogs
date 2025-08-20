@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# TensorFlow / model files
+*.h5
+*.keras
+*.ckpt
+saved_model/
+
+# Data & datasets (large files not for git)
+data/
+tfds/
+
+# OS-specific
+.DS_Store
+Thumbs.db

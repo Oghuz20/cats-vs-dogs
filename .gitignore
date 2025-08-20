@@ -12,7 +12,6 @@ env/
 
 # TensorFlow / model files
 *.h5
-*.keras
 *.ckpt
 saved_model/
 

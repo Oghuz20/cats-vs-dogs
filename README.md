@@ -8,7 +8,7 @@ It is designed for both experimentation in Jupyter/Colab notebooks and productio
 
 Clone the repository:
 
-git clone https://github.com/Oghuz-20/cats-vs-dogs.git
+git clone https://github.com/Oghuz20/cats-vs-dogs.git
 cd cats-vs-dogs
 
 
@@ -34,14 +34,14 @@ python src/train.py --epochs 5 --finetune_epochs 3
 
 🔹 Prediction (Local CLI)
 
-Option 1: Train locally with train.py and use the saved model.
+Prediction (Local CLI)
 
-Option 2: Download the pre-trained model and place it inside the models/ folder.
+You can directly use the pre-trained model included in models/ without retraining.  
+
 
 Run prediction on an image:
 
 python src/predict_local.py --image path/to/your_image.jpg
-
 🔹 Notebook
 
 For interactive exploration and step-by-step workflow, open:
@@ -58,7 +58,7 @@ cats-vs-dogs/
 │  ├─ loss_curve.png
 │  └─ classification_report.txt
 ├─ models/
-│  └─ cats_vs_dogs_mobilenetv2.keras  # Saved model
+│  └─ cats_vs_dogs_mobilenetv2.keras  # ✅ Pre-trained model (included)
 ├─ src/
 │  ├─ train.py                        # Training script
 │  ├─ predict_local.py                # Local prediction script
